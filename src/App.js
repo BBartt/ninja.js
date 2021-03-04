@@ -1,15 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import DataTable from './DataTable';
-import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="container mt-3">
-        <DataTable rows={this.props.rows} locale="da" rowsPerPage={5} />
-      </div>
-    );
-  }
+import { dummyData } from './dummyData/dummyData';
+
+import './scss/app.scss';
+
+function App() {
+  return (
+    <div className="container mt-3">
+      <DataTable data={dummyData} rowsPerPage={5} />
+    </div>
+  );
 }
 
 export default App;

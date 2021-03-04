@@ -1,0 +1,12 @@
+.pagination {
+  list-style: none;
+  li {
+    display: inline-block;
+  }
+  .page {
+    &-item {
+    }
+    &-link {
+    }
+  }
+}
