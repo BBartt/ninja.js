@@ -5,8 +5,6 @@ import renderer from 'react-test-renderer';
 
 import Pagination from './';
 
-import { dummyData } from '../../dummyData/dummyData';
-
 describe('<Pagination />', () => {
   it('renders without crashing', () => {
     shallow(
