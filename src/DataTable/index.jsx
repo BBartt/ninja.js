@@ -54,8 +54,8 @@ function DataTable({ data = [], rowsPerPage = 40 }) {
         </tbody>
       </table>
       <Pagination
-        currentPageNumber={state.currentPageNum}
-        totalNumberOfPages={state.totalNumberOfPages}
+        currentPageNumber={1}
+        totalNumberOfPages={10}
         onClick={num => setState({ ...state, currentPageNum: num })}
       />
     </div>

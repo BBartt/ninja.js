@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> matches snapshot 1`] = `
+<div
+  className="container mt-3"
+>
+  <div
+    className="dataTable"
+  >
+    <div
+      className="p-b-1"
+    >
+      <input
+        className="form-control"
+        onChange={[Function]}
+        placeholder="Søg brugere"
+        type="search"
+        value=""
+      />
+    </div>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <a
+              href="http://google.com"
+            >
+              Mads L. Klausen
+            </a>
+            <br />
+            <small>
+              MadsLKlausen@jourrapide.com
+            </small>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a
+              href="http://google.com"
+            >
+              Alfred K. Krogh
+            </a>
+            <br />
+            <small>
+              AlfredKKrogh@armyspy.com
+            </small>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a
+              href="http://google.com"
+            >
+              Silas L. Bertelsen
+            </a>
+            <br />
+            <small>
+              SilasLBertelsen@armyspy.com
+            </small>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a
+              href="http://google.com"
+            >
+              Mia A. Johnsen
+            </a>
+            <br />
+            <small>
+              MiaAJohnsen@dayrep.com
+            </small>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a
+              href="http://google.com"
+            >
+              Alfred S. Schou
+            </a>
+            <br />
+            <small>
+              AlfredSSchou@jourrapide.com
+            </small>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <ul
+      className="pagination"
+    >
+      <li
+        className="page-item mr-1"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          1
+        </button>
+      </li>
+      <li
+        className="page-item mr-1"
+      >
+        <button
+          className="page-link button-outline"
+          onClick={[Function]}
+        >
+          2
+        </button>
+      </li>
+      <li
+        className="page-item mr-1"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          3
+        </button>
+      </li>
+      <li
+        className="page-item mr-1"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          4
+        </button>
+      </li>
+      <li
+        className="page-item mr-1"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          5
+        </button>
+      </li>
+      <li
+        className="page-item mr-1"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          6
+        </button>
+      </li>
+      <li
+        className="page-item mr-1"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          7
+        </button>
+      </li>
+      <li
+        className="page-item mr-1"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          8
+        </button>
+      </li>
+      <li
+        className="page-item mr-1"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          9
+        </button>
+      </li>
+      <li
+        className="page-item mr-1"
+      >
+        <button
+          className="page-link"
+          onClick={[Function]}
+        >
+          10
+        </button>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
