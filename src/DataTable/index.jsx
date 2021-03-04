@@ -18,10 +18,10 @@ function DataTable({ data = [], rowsPerPage = 40 }) {
     let rowsFound =
       val.length > 0
         ? state.rows.filter(
-          row =>
+            row =>
               row?.name1?.toLowerCase().indexOf(val.toLowerCase()) > -1 ||
               row?.email?.toLowerCase().indexOf(val.toLowerCase()) > -1
-        )
+          )
         : data;
 
     setState({
