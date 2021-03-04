@@ -43,7 +43,15 @@ function DataTable({ data = [], rowsPerPage = 40 }) {
     <div className="dataTable">
       <Search value={state.searchedVal} onSearch={val => search(val)} />
       <table>
-        <tbody>{rowsToRender.length > 0 ? rowsToRender : 'No data'}</tbody>
+        <tbody>
+          {rowsToRender.length > 0 ? (
+            rowsToRender
+          ) : (
+            <tr>
+              <td>No data</td>
+            </tr>
+          )}
+        </tbody>
       </table>
       <Pagination
         currentPageNumber={state.currentPageNum}
